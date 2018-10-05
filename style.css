@@ -1,0 +1,50 @@
+.fullwrap{
+	width: 510px;
+	margin: 0 auto;
+}
+.wow{
+	width: 450px;
+	background-color: blue;
+	border-radius: 50%;
+	border:2px solid grey;
+	font-size: 200%;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.8;
+	font-weight: bold;
+	color: #fff;
+	margin: 0 auto;
+}
+.lesson{
+	margin: 0;
+	padding: 40px 0 0 0;
+}
+.lesson, .lesson li ul{
+	list-style:  none;
+}
+.lesson a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 3px 6px;
+}
+.lesson a:hover{
+	color: red;
+}
+.lesson li ul li{
+	width: 100px;
+	background-color: lightgrey;
+	border:1px solid black;
+	border-radius: 3px;
+	margin: 2px;
+	float: left;
+}
+.lesson li ul:last-child::after{
+	display: table;
+	content: '';
+	clear: both;
+}
+.num{
+	display: inline-block;
+	font-size: 24px;
+	padding-top: 30px; 
+}
