@@ -23,7 +23,7 @@
 	list-style:  none;
 }
 .lesson a{
-	display: inline-block;
+	display: block;
 	text-decoration: none;
 	padding: 3px 6px;
 }
