@@ -1,0 +1,39 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.title{
+	position: relative;
+}
+.title::before, .title1::before{
+	position: relative;
+	top: 22px;
+	content: '';
+	display: block;
+	border: 3px solid black;
+	width: 100%;
+	height: 0;
+}
+.title::after{
+	position: relative;
+	content: 'TITLE';
+	display: inline-block;
+	padding: 0 5px;
+	background-color: #fff;
+	text-align: center;
+	font-size: 200%;
+	left: 43.5%;
+}
+.title1{
+	position: relative;
+	text-align: center;
+	font-size: 200%;
+}
+.title1 span{
+	background-color: white;
+	padding: 5px;
+}
+.title1::before{
+	z-index: -1;
+}

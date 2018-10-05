@@ -1,0 +1,74 @@
+.header{
+	height: 30px;
+	min-width: 300px;
+	background-color: lightgrey;
+}
+.navig{
+	background-color: grey;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.navig::before{
+	content: '';
+	clear: both;
+}
+.navig li{
+	float: left;
+	margin: 1px;
+	text-align: center;
+}
+.navig li a{
+	display: block;
+	font-size: 165%;
+	color: black;
+	width: 30px;
+	height: 28px;
+}
+
+.navig li a:hover{
+	background: grey;
+	color: white;
+}
+.navig li:last-child{
+	float: right;
+}
+
+
+/*battery*/
+.red, .yellow, .green{
+	position: relative;
+	margin: 10px 0;
+	width: 200px;
+	height: 60px;
+	border: 3px solid black;
+	left: 10px;
+}
+.red::after, .yellow::after, .green::after{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 14px;
+	border: 3px solid black;
+	left: 203px;
+	top: 20px;
+
+}
+.red::before, .yellow::before, .green::before{
+	content: '';
+	position: absolute;
+	height: 60px;
+}
+.red::before{
+	width: 60px;
+	background-color: red;
+}
+.yellow::before{
+	width: 120px;
+	background-color: yellow;
+}
+.green::before{
+	width: 200px;
+	background-color: green;
+}
