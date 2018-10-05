@@ -1,0 +1,38 @@
+.fullwrap, .wrap, header,footer,main,aside{
+	border:1px solid #000;
+}
+.fullwrap{
+	width: 960px;
+	
+}
+.header, .wrap, .footer{
+	margin: 10px;
+}
+.header, .footer{
+	background-color: #989898;
+}
+.header{
+	height: 50px;
+}
+.main, .sidebar{
+	height: 400px;
+	margin: 6px;
+}
+.main{
+	width: 600px;
+	float: left;
+	background-color: #398703;
+}
+.sidebar{
+	margin-left: 620px;
+	width: 310px;
+	background-color: #345703;
+}
+.wrap::before{
+	display: table;
+	content: '';
+	clear: both;
+}
+.footer{
+	height: 80px;
+}
