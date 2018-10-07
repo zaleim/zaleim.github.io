@@ -128,7 +128,6 @@ body{
 }
 
 .center{
-	width: 100%;
 	text-align: center;
 }
 h1{
@@ -137,7 +136,8 @@ h1{
 }
 .center img{
 	width: 100%;
-	margin:20px;
+	margin: 0 50px;
+	border:1px solid red;
 }
 main h3, p{
 	padding: 0;
