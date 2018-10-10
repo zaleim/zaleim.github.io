@@ -1,0 +1,78 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+.content{
+	width: 210px;
+	margin:0 auto;
+}
+.content, .button, input{
+	border:3px solid lightgreen;
+	border-radius: 6px;
+}
+
+
+.header{
+	height: 30px;
+	background-color: lightgreen; 
+	margin: 10px 0;
+	text-align: right;
+	color: white;
+	line-height: 2;
+	font-size: 90%;
+}
+input{
+	display: block;
+	margin: 0 auto;
+	text-align: right;
+	font-size: 20px;
+	max-width: 90%;
+	color: lightgreen;
+}
+
+.battery{
+	width: 40%;
+	height: 30px;
+	background-color: lightgreen;
+	margin:10px;
+	float: right; 
+}
+.buttons{
+	clear: both;
+}
+.button{
+	text-align: center;
+	line-height: 2;
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
+	float: left;
+	margin: 5px;
+	color: lightgreen;
+	
+}
+.buttons .button:nth-child(4n+1) {
+	margin-left: 10px;
+}
+.button:hover{
+	background-color: lightgrey;
+	color: green;
+}
+.buttons .button:nth-child(4n+4):hover {
+	background-color: lightgreen;
+	color: white;
+}
+
+.buttons .button:active{
+	color: black;
+	background-color: green;
+}
+.buttons .button:nth-child(4n+4):active {
+	background-color: green;
+	color: white;
+}
+.clearfix:after{
+	display: table;
+	content: '';
+	clear: both;
+
+}
