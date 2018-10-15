@@ -2,7 +2,7 @@ body{
 	font-family: Helvetica, Arial, sans-serif;
 }
 .content{
-	width: 210px;
+	width: 230px;
 	margin:0 auto;
 }
 .content, .button, input{
@@ -38,21 +38,35 @@ input{
 }
 .buttons{
 	clear: both;
+	height: 230px;
+}
+.row{
+	height: 50px;
+	position: relative;
+	margin-bottom: 5px;
 }
 .button{
+	position: absolute;
 	text-align: center;
 	line-height: 2;
 	width: 40px;
 	height: 40px;
-	box-sizing: border-box;
-	float: left;
-	margin: 5px;
 	color: lightgreen;
-	
 }
-.buttons .button:nth-child(4n+1) {
-	margin-left: 10px;
+.one{
+	left: 10px;
 }
+.two{
+	left: 65px;
+}
+.three{
+	left: 120px;
+}
+.four{
+	left: 175px;
+}
+
+
 .button:hover{
 	background-color: lightgrey;
 	color: green;
@@ -69,10 +83,4 @@ input{
 .buttons .button:nth-child(4n+4):active {
 	background-color: green;
 	color: white;
-}
-.clearfix:after{
-	display: table;
-	content: '';
-	clear: both;
-
 }
