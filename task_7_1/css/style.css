@@ -1,0 +1,257 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+/* General */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	max-width: 960px;
+	width: 90%;
+	margin: 0 auto;
+	opacity: 1;
+}
+.button{
+	display: block;
+	width: 288px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px;
+	background-color: #f5264e;
+	text-decoration: none;
+	margin: 50px auto;
+}
+body{
+	background-image: url(../img/bg.png);
+	background-color:  #383838;
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+}
+
+
+/* Header */
+header{
+	position: relative;
+	background-color: black;
+	height: 430px;
+}
+header::before{
+	content: '';
+	display: block;
+	background-image: url(../img/bg-01.jpg);	
+	background-position: center;
+	background-size: 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: .9;
+}
+header .container{
+	position: relative;
+	z-index: 3;
+}
+#topbar{
+	position: fixed;
+	left: 0%;
+	right: 0%;
+	z-index: 4;
+}
+#topbar:before{
+	content: '';
+	display: block;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	opacity: .5;
+	background-color: black;
+	z-index: -1;
+}
+
+
+
+#topbar .menu{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+}
+#topbar .menu li{
+	display: inline-block;
+	height: 50px;
+	padding-left:15px; 
+	padding-right:15px;
+	float: left;
+	
+}
+.menu li:hover{
+	background-color: #b91a34;
+}
+.menu:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.menu li a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 1.5;
+	padding-top: 12px;
+}
+h1{
+	font-family: 'Metal Mania', cursive;
+	font-size: 550%;
+	color: white;
+	padding-top: 130px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 4;
+	font-size: 150%;
+	color: white;
+}
+
+
+/* Tour */
+
+.container:after{
+	display: table;
+	content: "";
+	clear: both;
+	
+}
+.tour-card{
+	width: 22.9%;
+	height: 213px;
+	float: left;
+	margin:10px;
+	color: white;
+	box-sizing: border-box;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	line-height: 1.5;
+	padding: 10px;
+	box-shadow: inset 250px 250px  rgba(0,0,0,.5),
+				0 4px 3px rgba(0,0,0,.3);
+}
+.tour-date{
+	font-style: italic;
+}
+.tour-card .button{
+	width: 70%;
+	padding: 7px;
+	margin-top: 20px;
+}
+.madrid{
+	background-image: url(../img/tour/madrid.jpg);
+}
+
+.turin{
+	background-image: url(../img/tour/turin.jpg);
+}
+.hamburg{
+	background-image: url(../img/tour/hamburg.jpg);
+}
+.krakow{
+	background-image: url(../img/tour/krakow.jpg);
+}
+#tour h3{
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 20px;
+	line-height: 2.5;
+}
+
+/* Gallery */
+.photo{
+	float: left;
+	margin: 10px;
+	width: 31.25%;
+	height: auto;
+	box-shadow: 0 4px 4px;
+}
+.photo a img{
+	display: block;
+	max-width: 100%;
+}
+
+
+/* Subscribe */
+#subscribe{
+	position: relative;
+	background-color:  black;
+	width: 100%;
+	height: 280px;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	margin-top: 30px;
+
+}
+#subscribe::before{
+	content: '';
+	display: block;
+	position: absolute;
+	background-image: url(../img/bg-02.jpg);
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	opacity: .5;
+	background-position:0px, -50px ;
+}
+
+#subscribe .container{
+	position: relative;
+	z-index: 2;
+}
+
+#subscribe p{
+	font-size: 85%;
+	line-height: 4;
+}
+button{
+	color: white;
+	text-align: center;
+	line-height: 1.5;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	background-color: #f5264e;
+	text-decoration: none;
+	border:none;
+}
+input{
+	padding: 10px;
+	border:1px solid white;
+}
+
+
+/* Footer */
+
+footer{
+	height: 80px;
+	background-color: #212121;
+	color: white;
+	text-align: center;
+	line-height: 3;
+	font-size: 70%;
+	padding-top: 15px;
+}
+.fa{
+	color: white;
+	padding: 0 5px;
+
+}
