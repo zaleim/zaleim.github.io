@@ -11,6 +11,7 @@ body{
 }
 .fullwrap{
 	background-color: #fff;
+	border-radius: 4px 4px 0 0 ;
 }
 .header::before{
 	content: '';
