@@ -206,7 +206,6 @@ img{
 	margin-right: 5px;
 }
 .searchbox{
-	clear: both;
 	position: relative;
 	margin-top: 30px;
 }
@@ -261,7 +260,7 @@ img{
 	max-width: 788px;
 	margin: 0 auto;
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 }
 .service{
 	width: 100%;
@@ -348,7 +347,7 @@ img{
 }
 .picture h3{
 	color: #fff;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 1.5;
 	text-align: center;
 	text-transform: uppercase;
@@ -851,6 +850,9 @@ img{
 	.picture{
 		min-height: 500px;
 	}	
+	.picture h3{
+		font-size: 24px;
+	}
 	.advantages .my_container{
 		padding-bottom: 60px;
 	}
@@ -867,7 +869,7 @@ img{
 	.course_describe{
 		width: 60%;
 	}
-		.reviews{
+	.reviews{
 		height: 600px;
 	}
 	.quote_container{
