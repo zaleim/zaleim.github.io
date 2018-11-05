@@ -45,7 +45,7 @@ $('.header').height($(window).height());
 
 // for link-menu
 
- $(".navbar a").click(function(){
+ $(".navbar .move").click(function(){
   $("body,html").animate({
    scrollTop:$("#" + $(this).data('value')).offset().top
   },1000)
