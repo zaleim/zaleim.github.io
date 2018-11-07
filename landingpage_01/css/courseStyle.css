@@ -54,6 +54,7 @@
 }
 .photo_teacher{
 	width: 200px;
+	max-width: 200px;
 	margin: auto;
 }
 .img_header{
