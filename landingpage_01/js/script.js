@@ -21,13 +21,13 @@
 
         // for search
         focusMethod = function getFocus() {           
-      document.getElementById("myTextField").focus();
-    }
+          document.getElementById("myTextField").focus();
+        } 
 
 
 // for loginRegistr form
 
-const buttons = Array.from(document.querySelectorAll('.buttons > button'));
+        const buttons = Array.from(document.querySelectorAll('.buttons > button'));
         const activeElements = Array.from(document.querySelectorAll('[data-action="animated"]'));
 
         function toggle() {
@@ -41,16 +41,16 @@ const buttons = Array.from(document.querySelectorAll('.buttons > button'));
 
 
 // for first scrin
-$('.header').height($(window).height());
+// $('.header').height($(window).height());
 
 // for link-menu
 
- $(".navbar .move").click(function(){
-  $("body,html").animate({
-   scrollTop:$("#" + $(this).data('value')).offset().top
-  },1000)
+        $(".navbar .move").click(function(){
+          $("body,html").animate({
+            scrollTop:$("#" + $(this).data('value')).offset().top
+            },1000)
   
- })
+        })
 
 
- });
+  });
