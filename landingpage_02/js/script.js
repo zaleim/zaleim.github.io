@@ -40,7 +40,8 @@ const buttons = Array.from(document.querySelectorAll('.buttons > button'));
         buttons.forEach(item => item.addEventListener('click', toggle));
 
 
-
+// for first scrin
+// $('.header').height($(window).height());
 
 // for link-menu
 
