@@ -173,6 +173,9 @@ h2 span{
 h2 span, h2 a{
 	font-size: 16px;
 }
+.twit{
+	padding-bottom: 15px;
+}
 .twit_head{
 	position: relative;
 }
