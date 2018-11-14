@@ -1,370 +1,389 @@
 <!DOCTYPE html>
 <html lang="uk-ua">
-<head>
-	<title>ZaLeiM</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<head>
+		<title>EasyCourse</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="EasyCourse - безкоштовна платформа відкритих інтерактивних онлайн-курсів">
 
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="apple-touch-icon" sizes="57x57" href="/imgf/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/imgf/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/imgf/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/imgf/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/imgf/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/imgf/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/imgf/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/imgf/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/imgf/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/imgf/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/imgf/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/imgf/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/imgf/favicon-16x16.png">
+		<link rel="manifest" href="/imgf/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/imgf/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-	<div class="fullwrap">
-		<header class="header">  
-			<div class="my_container">
-				<div class="default" id="menu" >
-					<nav class="navbar navbar-expand-md navbar-dark" >
-						<div class="logo">
-								<a class="logo_fixed" href="#"><img src="img/logo_v2_2.png"></a>
-								<a class="logo_default" href="index.html"><img src="img/logo.png"></a>
-						</div>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-						<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-
-						<div class="menu_course collapse navbar-collapse" id="collapse_target">
-
-							<ul class="navbar-nav">
-								<li class="nav-item">
-									<a class="nav-link" href="#">Головна</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link move" data-value="courses" href="#">Курси</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Блог</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link move" data-value="contact" href="#">Контакти</a>
-								</li>
-								<li class="nav-item hide_search">
-									<a class="nav-link" href="#" onclick="focusMethod()" ><i class="fas fa-search"></i></a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="loginRegistr.html"><i class="fas fa-sign-in-alt"></i> Увійти</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</div>	
-				<form action="" id="search" class="searchbox">
-	 				<input id="myTextField" type="text" name="search" placeholder="Search..">
-	 				<button type="submit"></button>
-	 			</form>
-	 			<div class="head">
-					<h1>Освіта для кожного</h1>
-					<p>Безкоштовні онлайн-курси</p>
-				</div>
-			</div>
-		</header>	
-		<div class="wrap">
-							
-			
-
-			<div class="steps">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="fullwrap">
+			<header class="header">  
 				<div class="my_container">
-					<h2><span class="color_red">Що</span> Вас чекає</h2>
-					<div class="way">
-						<div class="way_relative"></div>
+					<div class="default" id="menu" >
+						<nav class="navbar navbar-expand-md navbar-dark">
+							<div class="logo">
+									<a class="logo_fixed" href="index.html"><img src="img/logo_v2_2.png" alt=""></a>
+									<a class="logo_default" href="index.html"><img src="img/logo.png" alt=""></a>
+							</div>
 
-						<div class="service service_one">
-							<div class="fig_01 fig"></div>
-                         
-							<div class="step">
-								<p><span class="step_header">Відеолекції</span> <span class="visible">Дивіться відеолекції від професіоналів.</span></p>
+							<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="menu_course collapse navbar-collapse" id="collapse_target">
+
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link" href="#">Головна</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link move" data-value="courses" href="#">Курси</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Блог</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link move" data-value="contact" href="#">Контакти</a>
+									</li>
+									<li class="nav-item hide_search">
+										<a class="nav-link" href="#" onclick="focusMethod()" ><i class="fas fa-search"></i></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="loginRegistr.html"><i class="fas fa-sign-in-alt"></i> Увійти</a>
+									</li>
+								</ul>
 							</div>
-						</div>
-					
-											
-						<div class="service service_two">
-							<div class="fig_02 fig"></div>
-							<div class="step">
-							<p><span class="step_header">Інтерактивні тести</span><span class="visible">Перевірте набуті знання за допомогою різноманітних завдань.</span></p>
+						</nav>
+					</div>	
+					<form action="" id="search" class="searchbox">
+		 				<input id="myTextField" type="text" name="search" placeholder="Search..">
+		 				<button type="submit"></button>
+		 			</form>
+		 			<div class="head">
+						<h1>Освіта для кожного</h1>
+						<p>Безкоштовні онлайн-курси</p>
+					</div>
+				</div>
+			</header>	
+			<div class="wrap">
+								
+				
+
+				<div class="steps">
+					<div class="my_container">
+						<h2><span class="color_red">Що</span> Вас чекає</h2>
+						<div class="way">
+							<div class="way_relative"></div>
+
+							<div class="service service_one">
+								<div class="fig_01 fig"></div>
+	                         
+								<div class="step">
+									<p><span class="step_header">Відеолекції</span> <span class="visible">Дивіться відеолекції від професіоналів.</span></p>
+								</div>
 							</div>
-						</div>		
-					
-						<div class="service service_three">
-							<div class="fig_03 fig"></div>
-							<div class="step">
-							<p><span class="step_header">Форум</span><span class="visible">Обговорюйте питання, що Вас цікавлять, на форумі.</span></p>
-							</div>
-						</div>
-												
-						<div class="service service_four">
-							<div class="fig_04 fig"></div>
-							<div class="step">
-							<p><span class="step_header">Сертифікат</span><span class="visible">Успішно складіть всі завдання курсу й отримайте сертифікат про його завершення!</span></p>
-							</div>
-						</div>
-							
-						<div class="service service_five">
-							<div class="fig_05 fig"></div>
-						</div>					 
 						
+												
+							<div class="service service_two">
+								<div class="fig_02 fig"></div>
+								<div class="step">
+								<p><span class="step_header">Інтерактивні тести</span><span class="visible">Перевірте набуті знання за допомогою різноманітних завдань.</span></p>
+								</div>
+							</div>		
+						
+							<div class="service service_three">
+								<div class="fig_03 fig"></div>
+								<div class="step">
+								<p><span class="step_header">Форум</span><span class="visible">Обговорюйте питання, що Вас цікавлять, на форумі.</span></p>
+								</div>
+							</div>
+													
+							<div class="service service_four">
+								<div class="fig_04 fig"></div>
+								<div class="step">
+								<p><span class="step_header">Сертифікат</span><span class="visible">Успішно складіть всі завдання курсу й отримайте сертифікат про його завершення!</span></p>
+								</div>
+							</div>
+								
+							<div class="service service_five">
+								<div class="fig_05 fig"></div>
+							</div>					 
+							
+						</div>
 					</div>
 				</div>
-			</div>
-					
-			
+						
+				
 
-			<div class="picture">
-				<div class="my_container">
-					<h3>
-						Ми хочемо об’єднати всіх, для кого навчання й пізнання – це стиль життя. Всіх, хто любить навчатися, і всіх, хто може передавати знання. 
-					</h3>
-				</div>
-			</div>
-
-			<div class="advantages ">
-				<div class="my_container clearfix">
-					<h2>Переваги</h2>
-				<!-- <div class="advantages clearfix"> -->
-					<div class="flip">
-						<div class="flip_advantage">
-							<div class="flip_advantage_inner">
-								<div class="flip_advantage_front">
-									<i class="far fa-clock"></i>
-									<p>Будь-коли</p>
-								</div>
-								<div class="flip_advantage_back">
-									<p>Навчайтесь у зручний для Вас час. Відеолекції, тести та форум доступні цілодобово.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="flip">
-						<div class="flip_advantage">
-							<div class="flip_advantage_inner">
-								<div class="flip_advantage_front">
-									<i class="fas fa-map-marked-alt"></i>
-									<p>Будь-де</p>
-								</div>
-								<div class="flip_advantage_back">
-									<p>Проходьте курси, не виходячи з дому чи в дорозі. Все, що Вам знадобиться, – це доступ до інтернету.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="flip">
-						<div class="flip_advantage">
-							<div class="flip_advantage_inner">
-								<div class="flip_advantage_front">
-									<i class="fas fa-mobile-alt"></i>
-									<p>Будь-який пристрій</p>
-								</div>
-								<div class="flip_advantage_back">
-									<p>Навчайтесь на комп’ютері, планшеті чи телефоні.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="flip">
-						<div class="flip_advantage">
-							<div class="flip_advantage_inner">
-								<div class="flip_advantage_front">
-									<i class="fas fa-users"></i>
-									<p>Будь-хто</p>
-								</div>
-								<div class="flip_advantage_back">
-									<p>Наші курси абсолютно безкоштовні.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>			
-			
-			</div>
-
-
-
-
-			<div class="learn">
-				<div class="my_container clearfix">
-					<div class="aim">
-						<p>Почати вчитися</p>
-						<div class="button"><a href="#">Хочу вивчити</a></div>
-					</div>
-					<div class="photo_block">
-						<img src="img/learn.png" alt="">
+				<div class="picture">
+					<div class="my_container">
+						<h3>
+							Ми хочемо об’єднати всіх, для кого навчання й пізнання – це стиль життя. Всіх, хто любить навчатися, і всіх, хто може передавати знання. 
+						</h3>
 					</div>
 				</div>
-			</div>
-			
-			<div class="teach">
-				<div class="my_container clearfix">
-					<div class="photo_block">
-						<img src="img/teach.png" alt="">
-					</div>
-					<div class="aim">
-						<p>Почати викладати</p>
-						<div class="button"><a href="#">Хочу викладати </a></div>
+
+				<div class="advantages ">
+					<div class="my_container clearfix">
+						<h2>Переваги</h2>
+					<!-- <div class="advantages clearfix"> -->
+						<div class="flip">
+							<div class="flip_advantage">
+								<div class="flip_advantage_inner">
+									<div class="flip_advantage_front">
+										<i class="far fa-clock"></i>
+										<p>Будь-коли</p>
+									</div>
+									<div class="flip_advantage_back">
+										<p>Навчайтесь у зручний для Вас час. Відеолекції, тести та форум доступні цілодобово.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="flip">
+							<div class="flip_advantage">
+								<div class="flip_advantage_inner">
+									<div class="flip_advantage_front">
+										<i class="fas fa-map-marked-alt"></i>
+										<p>Будь-де</p>
+									</div>
+									<div class="flip_advantage_back">
+										<p>Проходьте курси, не виходячи з дому чи в дорозі. Все, що Вам знадобиться, – це доступ до інтернету.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="flip">
+							<div class="flip_advantage">
+								<div class="flip_advantage_inner">
+									<div class="flip_advantage_front">
+										<i class="fas fa-mobile-alt"></i>
+										<p>Будь-який пристрій</p>
+									</div>
+									<div class="flip_advantage_back">
+										<p>Навчайтесь на комп’ютері, планшеті чи телефоні.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="flip">
+							<div class="flip_advantage">
+								<div class="flip_advantage_inner">
+									<div class="flip_advantage_front">
+										<i class="fas fa-users"></i>
+										<p>Будь-хто</p>
+									</div>
+									<div class="flip_advantage_back">
+										<p>Наші курси абсолютно безкоштовні.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>			
+				
+				</div>
+
+
+
+
+				<div class="learn">
+					<div class="my_container clearfix">
+						<div class="aim">
+							<p>Почати вчитися</p>
+							<div class="button"><a href="#">Хочу вивчити</a></div>
+						</div>
+						<div class="photo_block">
+							<img src="img/learn.png" alt="">
+						</div>
 					</div>
 				</div>
-			</div>
-
-
-			<div class="courses" id="courses">
-				<div class="my_container clearfix">
-					<h2>Наші <span class="color_red">курси</span></h2>
-					<div class="block_flex">
-						<div class="course clearfix">
-							<div class="course_img">
-								<img src="img/web_UI.png" alt="">
-							</div>	
-							<div class="course_describe">
-								<h3>Основи Web UI розробки</h3>
-								<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
-								<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
-								<div class="button"><a href="course.html">дізнатися більше</a></div>
-							</div>
+				
+				<div class="teach">
+					<div class="my_container clearfix">
+						<div class="photo_block">
+							<img src="img/teach.png" alt="">
 						</div>
-
-
-						<div class="course clearfix">
-							<div class="course_img">
-								<img src="img/web_UI.png" alt="">
-							</div>
-							<div class="course_describe">
-								<h3>Основи Web UI розробки</h3>
-								<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
-								<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-								<div class="button"><a href="course.html">дізнатися більше</a></div>
-							</div>
+						<div class="aim">
+							<p>Почати викладати</p>
+							<div class="button"><a href="#">Хочу викладати </a></div>
 						</div>
+					</div>
+				</div>
+
+
+				<div class="courses" id="courses">
+					<div class="my_container clearfix">
+						<h2>Наші <span class="color_red">курси</span></h2>
+						<div class="block_flex">
+							<div class="course clearfix">
+								<div class="course_img">
+									<img src="img/web_UI.png" alt="">
+								</div>	
+								<div class="course_describe">
+									<h3>Основи Web UI розробки</h3>
+									<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
+									<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
+									<div class="button"><a href="course.html">дізнатися більше</a></div>
+								</div>
+							</div>
 
 
 							<div class="course clearfix">
-							<div class="course_img">
-								<img src="img/web_UI.png" alt="">
-							</div>	
-							<div class="course_describe">
-								<h3>Основи Web UI розробки</h3>
-								<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
-								<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
-								<div class="button"><a href="course.html">дізнатися більше</a></div>
+								<div class="course_img">
+									<img src="img/web_UI.png" alt="">
+								</div>
+								<div class="course_describe">
+									<h3>Основи Web UI розробки</h3>
+									<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
+									<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<div class="button"><a href="course.html">дізнатися більше</a></div>
+								</div>
 							</div>
-						</div>
 
 
-						<div class="course clearfix">
-							<div class="course_img">
-								<img src="img/web_UI.png" alt="">
+								<div class="course clearfix">
+								<div class="course_img">
+									<img src="img/web_UI.png" alt="">
+								</div>	
+								<div class="course_describe">
+									<h3>Основи Web UI розробки</h3>
+									<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
+									<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
+									<div class="button"><a href="course.html">дізнатися більше</a></div>
+								</div>
 							</div>
-							<div class="course_describe">
-								<h3>Основи Web UI розробки</h3>
-								<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
-								<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
-								<div class="button"><a href="course.html">дізнатися більше</a></div>
-							</div>
-						</div>
 
-						<div class="course clearfix">
-							<div class="course_img">
-								<img src="img/web_UI.png" alt="">
+
+							<div class="course clearfix">
+								<div class="course_img">
+									<img src="img/web_UI.png" alt="">
+								</div>
+								<div class="course_describe">
+									<h3>Основи Web UI розробки</h3>
+									<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
+									<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
+									<div class="button"><a href="course.html">дізнатися більше</a></div>
+								</div>
 							</div>
-							<div class="course_describe">
-								<h3>Основи Web UI розробки</h3>
-								<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
-								<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
-								<div class="button"><a href="course.html">дізнатися більше</a></div>
+
+							<div class="course clearfix">
+								<div class="course_img">
+									<img src="img/web_UI.png" alt="">
+								</div>
+								<div class="course_describe">
+									<h3>Основи Web UI розробки</h3>
+									<p>Дізнайтеся про основу створення веб сайтів та вивчіть базові інструменти веб-розробки: HTML/CSS/Javascript.</p>
+									<p>Курс читає Світлана, Web UI девелопер в компанії N-iX.</p>
+									<div class="button"><a href="course.html">дізнатися більше</a></div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
+
+				<div class="reviews">
+					<div class="my_container">
+						<div class="quote_container">
+							<div class="quote"></div>
+						</div>
+
+						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+						  	<div class="carousel-inner">
+						    	<div class="carousel-item active">
+						      		<div class="people">
+										<div class="lang">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua.</div>
+										<div class="photo_review photo_review_one"></div>		
+										<div class="full_name"><span class="color_red"> Alan</span> Richman </div>
+									</div>
+								</div>
+						    	<div class="carousel-item">
+							    	<div class="people">
+										<div class="lang">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. </div>
+										<div class="photo_review photo_review_two"></div>		
+										<div class="full_name"><span class="color_red"> Леся </span>Типчук </div>
+									</div>
+							   	</div>
+						    	<div class="carousel-item">
+						      		<div class="people">
+										<div class="lang">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod...</div>
+										<div class="photo_review photo_review_three"></div>		
+										<div class="full_name"><span class="color_red"> Devid </span>Richman </div>
+									</div>
+								</div>
+						 	</div>
+						 	<div class="left-right">
+								<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+								   	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							    	<span class="sr-only">Previous</span>
+							    </a>
+							  	<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    	<span class="sr-only">Next</span>
+							    </a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
 			</div>
 
 
-			<div class="reviews">
-				<div class="my_container">
-					<div class="quote_container">
-						<div class="quote"></div>
-					</div>
 
-					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-					  	<div class="carousel-inner">
-					    	<div class="carousel-item active">
-					      		<div class="people">
-									<div class="lang">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua.</div>
-									<div class="photo_review photo_review_one"></div>		
-									<div class="full_name"><span class="color_red"> Alan</span> Richman </div>
-								</div>
-							</div>
-					    	<div class="carousel-item">
-						    	<div class="people">
-									<div class="lang">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. </div>
-									<div class="photo_review photo_review_two"></div>		
-									<div class="full_name"><span class="color_red"> Леся </span>Типчук </div>
-								</div>
-						   	</div>
-					    	<div class="carousel-item">
-					      		<div class="people">
-									<div class="lang">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod...</div>
-									<div class="photo_review photo_review_three"></div>		
-									<div class="full_name"><span class="color_red"> Devid </span>Richman </div>
-								</div>
-							</div>
-					 	</div>
-					 	<div class="left-right">
-							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-							   	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    	<span class="sr-only">Previous</span>
-						    </a>
-						  	<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-						    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    	<span class="sr-only">Next</span>
-						    </a>
+			<footer>
+				<div class="footer" id="contact">
+					<div class="my_container">
+						<div>
+							<p>
+								«EasyCourses»– це український громадський проект масових відкритих онлайн-курсів. Мета проекту – безкоштовно надати найкращі навчальні можливості кожному громадянину України.
+							</p>
+						</div>
+						<div class="logo">
+							<a href="index.html"><img src="img/logo.png" alt=""></a>
+						</div>
+						<div>
+							<p>
+								<span class="footer_block">Загальні питання:</span> info@easycourses.org.ua
+							</p>
+							<p>
+								<span class="footer_block">Технічні питання:</span>support@easycourses.org.ua
+							</p>
 						</div>
 					</div>
-
 				</div>
-			</div>
-
-
+			</footer>
 		</div>
 
-
-
-		<footer>
-			<div class="footer" id="contact">
-				<div class="my_container">
-					<div>
-						<p>
-							«EasyCourses»– це український громадський проект масових відкритих онлайн-курсів. Мета проекту – безкоштовно надати найкращі навчальні можливості кожному громадянину України.
-						</p>
-					</div>
-					<div class="logo">
-						<a href="index.html"><img src="img/logo.png"></a>
-					</div>
-					<div>
-						<p>
-							<span class="footer_block">Загальні питання:</span> info@easycourses.org.ua
-						</p>
-						<p>
-							<span class="footer_block">Технічні питання:</span>support@easycourses.org.ua
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</div>
-
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
-</body>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>
