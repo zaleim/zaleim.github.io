@@ -477,6 +477,9 @@ img{
 .courses{
 	background-color: #f2f2f2;
 }
+.courses h2{
+	padding-top: 50px;
+}
 .block_flex{
 	display: -webkit-box;
 	display: -ms-flexbox;
