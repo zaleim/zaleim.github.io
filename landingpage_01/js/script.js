@@ -51,6 +51,15 @@
             },1000)
   
         })
+        $(function(){
+            $("#signup-form").submit(function(e){
+                e.preventDefault();
+                $("#thanks").removeClass("modal");
+                $("#thanks").addClass("show");
+                $("#modal").removeClass("show");
+                $("#modal").addClass("modal");
 
+            });
+        });
 
   });

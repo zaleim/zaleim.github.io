@@ -52,7 +52,7 @@
 						<a class="nav-link" href="index.html#courses">Курси</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Блог</a>
+						<a class="nav-link" href="404.html">Блог</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Контакти</a>
@@ -67,7 +67,7 @@
 			</div>
 		</nav>
 	<main>
-		<div class="my_container">
+		<div class="my_container show" id="modal">
 			<div class="buttons login-button-active" data-action="animated">
 			
 				<button class="login-button">
@@ -83,9 +83,9 @@
 			
 
 
-			<div class="forms">
+			<div class="forms" id="forms">
 				
-				<form class="login-form login-button-active" action="#" method="post" data-action="animated">
+				<form class="login-form login-button-active" action="index.html" method="post" data-action="animated">
 					<fieldset>
 						<legend>Please, enter your email and password for login.</legend>
 						<p>
@@ -100,7 +100,7 @@
 					<input type="submit" value="Увійти">
 				</form>
 			
-				<form class="signup-form" action="#" method="post" data-action="animated">
+				<form class="signup-form" id="signup-form" action="#" method="post" data-action="animated">
 					<fieldset>
 						<legend>Please, enter your email, password and password confirmation for sign up.</legend>
 						<p>
@@ -119,13 +119,17 @@
 					</fieldset>
 					<input type="submit" value="Зареєструватися">
 				</form>
-
+				
 
 			</div>
 		</div>
+		<div class="my_container modal" id="thanks">
+			<div class="title">Дякуємо за реєстрацію</div>
+			<div class="home"><a href="index.html">на головну <i class="fas fa-home"></i></a></div>
+		</div>
 	</main>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/jquery-3.3.1.min.js" defer></script>
+	<script src="js/bootstrap.min.js" defer></script>
+	<script src="js/script.js" defer></script>
 </body>
 </html>
